@@ -1,0 +1,257 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  background: #e5e5e5;
+}
+#homepage {
+  background: url(../images/background.jpg);
+  background-size: cover;
+  background-position: center; 
+  padding-bottom: 70px;
+  height: 100%;
+}
+nav {
+  padding-top: 30px;
+}
+.logo {
+  color: #fff;
+  margin-left: 20px;
+}
+.btn-register {
+  background: #f7a31f;
+  border-color: #f7a31f;
+  color: #fff;
+  padding: 5px 40px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: bold;
+}
+#masterclass-div {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+#master {
+  font-size: 19px;
+}
+#solve {
+  width: 75%;
+  margin: 0 auto;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.btn-register.reg {
+  padding: 10px 40px;
+  font-size: 12px;
+}
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+#discover-div {
+  background: #f7f7f7;
+  text-align: center;
+}
+#discover-div,
+#executive-div {
+  padding: 40px 0;
+  color: #000;
+}
+#discover-div p {
+  width: 45%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+#executive-div {
+  background: #fff;
+}
+.exec-container {
+  width: 44%;
+  margin: 0 auto;
+}
+.exec-container p {
+  line-height: 25px;
+}
+.treadmill-div {
+  width: 75%;
+  margin: 30px auto;
+}
+.treadmill-text {
+  color: #3a9697;
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#collection-div {
+  width: 50%;
+  margin: 0 auto;
+  background: #006986;
+  padding: 40px;
+  color: #fff;
+}
+#collection-div p {
+  width: 74%;
+  margin: 20px auto;
+  font-size: 16px;
+}
+#collection-div p#comprehensive {
+  width: 80%;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.bold {
+  font-weight: bold;
+}
+#register-div {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+}
+#register-div p {
+  font-size: 32px;
+  font-weight: bold;
+}
+#register-div span, 
+#register-form span {
+  color: #f7a31f;
+}
+#starting-div p {
+  width: 40%;
+  margin: 0 auto;
+  line-height: 25px;
+}
+.register-div {
+  background: #006986;
+  padding: 80px 0;
+  color: #fff;
+}
+.registerdiv{
+  width: 40%;
+  margin: 0 auto;
+}
+.free {
+  font-size: 16px;
+  font-weight: bold;
+}
+#register-form {
+  margin-top: 20px;
+}
+label {
+  font-size: 10px;
+  margin-bottom: 15px;
+}
+#firstname, #email {
+  background: #a6c9cf;
+}
+#engagement, #timezone, #webinar {
+  background: #014552;
+}
+.form-control, input {
+  font-size: 12px;
+  color: #fff;
+}
+.btn-getstarted {
+  background: #f7a31f;
+  border: 1px solid #f7a31f;
+  color: #fff;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  font-size: 15px;
+  width: 100%;
+  font-weight: bold;
+}
+#profile-div {
+  width: 45%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+#profile-div p {
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.7);
+}
+#profile-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+#readmore {
+  font-size: 10px;
+  color: #1fac85;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+footer p, footer p a,
+footer a {
+  color: #838383;
+  font-size: 10px;
+}
+.footer {
+  font-size: 16px;
+  position: relative;
+  top: -10px;
+}
+#created {
+  position: absolute;
+  right: 0;
+  margin-top: 4px;
+  margin-right: 150px;
+  z-index: 1;
+  background: #fff;
+}
+#footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 768px) {
+  #master,
+  .treadmill-text {
+    font-size: 15px;
+  }
+  #solve {
+    width: auto;
+    font-size: 15px;
+  }
+  #masterclass-div,
+  #discover-div p,
+  #collection-div,
+  #register-div,
+  #profile-div {
+    width: 90%;
+  }
+  .btn-register.reg {
+    padding: 10px 25px;
+  }
+  .exec-container,
+  #starting-div p, 
+  .registerdiv {
+    width: 70%;
+  }
+  #collection-div p#comprehensive,
+  #collection-div p {
+    width: 100%;
+  }
+  #collection-div p {
+    font-size: 14px;
+  }
+  #collection-div p#comprehensive, 
+  #register-div p {
+    font-size: 20px;
+  }
+  #starting-div p {
+    margin-bottom: 20px;
+  }
+  #created {
+    margin-right: 30px;
+  }
+
+}
